@@ -1,4 +1,4 @@
-To update the code 
+To update the code:
 
 git add filename
 
