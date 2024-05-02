@@ -7,7 +7,7 @@ T = 5.0    # Total time
 Nx = 100   # Number of spatial grid points
 dx = L / Nx  # Spatial step size
 dt = 0.01  # Time step size
-c = 1.0    # Advection speed
+c = 1.0    # Advection SPEED
 
 # Initial condition
 def initial_condition(x):
