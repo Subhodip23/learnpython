@@ -19,7 +19,6 @@ def newton_raphson(u0, x, t, tol=1e-7, max_iter=100):
 def initial_condition(x):
     return np.sin(x)
 
-# Example usage:
 x = np.linspace(0, 2 * np.pi, 100)
 t = 0.99
 initial_guess = initial_condition(x)
